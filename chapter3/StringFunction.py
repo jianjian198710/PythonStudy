@@ -24,7 +24,7 @@ print "seq2.spilt('+') is: "+str(seq2.split("+"))
 string="What a fucking day!"
 print "lower is: "+str(string.lower())
 
-#replace
+#replace: return a new String
 string2="This is a test"
 print "replace is: "+string2.replace("is", "ezz")
 
