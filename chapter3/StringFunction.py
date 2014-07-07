@@ -35,3 +35,5 @@ if name.strip() in names: print "found it!"
 
 string3="**SPAM*for*everyone!!! ***"
 print "string3.strip(' *!') is: "+string3.strip(" *!")
+
+#translate
