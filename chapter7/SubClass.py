@@ -18,4 +18,4 @@ s=SPAMFilter()
 s.init()
 print "Child filter is: "+str(s.filter(["SPAM","SPAM","SPAM","SPAM","eggs","bacon"]))
 
-
+print "SPAMFilter is subclass of Filter: "+str(issubclass(SPAMFilter,Filter))
